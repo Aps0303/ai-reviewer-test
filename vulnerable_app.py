@@ -2,6 +2,7 @@
 def get_user(username):
     #testing
     #test week 6
+    #bot is crazy
     #test2
     query = "SELECT * FROM users WHERE username = '" + username + "'"
     cursor.execute(query)
